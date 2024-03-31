@@ -1,0 +1,38 @@
+
+CREATE DATABASE WineCommunity;
+
+USE WineCommunity;
+
+CREATE TABLE Users (
+    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    Username VARCHAR(255) NOT NULL,
+    DateOfBirth VARCHAR(10) NOT NULL,
+    Email VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE Wines (
+    WineID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(255) UNIQUE NOT NULL,
+    Winery VARCHAR(255),
+    Vintage YEAR,
+    Origin VARCHAR(255),
+    Type VARCHAR(50),
+    Grapes TEXT,
+    Incorporation TIMESTAMP NOT NULL
+);
+
+CREATE TABLE UserWines (
+    UserID INT,
+    WineID INT,
+    Rating TINYINT NOT NULL,
+    DateAdded TIMESTAMP NOT NULL,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID) ON DELETE CASCADE,
+    FOREIGN KEY (WineID) REFERENCES Wines(WineID) ON DELETE CASCADE
+);
+
+CREATE TABLE Followers (
+    FollowingUserID INT,
+    FollowedUserID INT,
+    FOREIGN KEY (FollowingUserID) REFERENCES Users(UserID) ON DELETE CASCADE,
+    FOREIGN KEY (FollowedUserID) REFERENCES Users(UserID) ON DELETE CASCADE
+);
