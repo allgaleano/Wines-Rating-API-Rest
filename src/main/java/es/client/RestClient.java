@@ -1,4 +1,4 @@
-package sos.client;
+package es.client;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -18,11 +18,11 @@ import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import sos.model.FriendWines;
-import sos.model.User;
-import sos.model.UserRecommendations;
-import sos.model.UserWine;
-import sos.model.Wine;
+import es.model.FriendWines;
+import es.model.User;
+import es.model.UserRecommendations;
+import es.model.UserWine;
+import es.model.Wine;
 
 public class RestClient {
 

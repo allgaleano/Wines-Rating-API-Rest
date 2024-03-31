@@ -1,4 +1,4 @@
-package sos.repository;
+package es.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import sos.model.User;
-import sos.utils.DatabaseUtil;
+import es.model.User;
+import es.utils.DatabaseUtil;
 /*
  * This class is responsible for interacting with the database to perform operations related to followers.
  */

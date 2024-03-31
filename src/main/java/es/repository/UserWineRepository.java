@@ -1,4 +1,4 @@
-package sos.repository;
+package es.repository;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sos.model.FriendWines;
-import sos.model.User;
-import sos.model.UserWine;
-import sos.model.Wine;
-import sos.utils.DatabaseUtil;
+import es.model.FriendWines;
+import es.model.User;
+import es.model.UserWine;
+import es.model.Wine;
+import es.utils.DatabaseUtil;
 
 public class UserWineRepository {
 

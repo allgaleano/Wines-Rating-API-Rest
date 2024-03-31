@@ -1,4 +1,4 @@
-package sos.model;
+package es.model;
 
 import java.sql.Timestamp;
 import java.util.List;

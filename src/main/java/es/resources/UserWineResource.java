@@ -1,4 +1,4 @@
-package sos.resources;
+package es.resources;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -18,13 +18,13 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import sos.model.RatingUpdate;
-import sos.model.User;
-import sos.model.UserWine;
-import sos.model.Wine;
-import sos.repository.UserRepository;
-import sos.repository.UserWineRepository;
-import sos.repository.WineRepository;
+import es.model.RatingUpdate;
+import es.model.User;
+import es.model.UserWine;
+import es.model.Wine;
+import es.repository.UserRepository;
+import es.repository.UserWineRepository;
+import es.repository.WineRepository;
 
 @Path("/users")
 public class UserWineResource {

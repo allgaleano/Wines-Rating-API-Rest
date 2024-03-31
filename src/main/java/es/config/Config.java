@@ -1,4 +1,4 @@
-package sos.config;
+package es.config;
 
 // Conexion a la base de datos hardcodeada
 public class Config {

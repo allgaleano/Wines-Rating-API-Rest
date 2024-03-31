@@ -1,4 +1,4 @@
-package sos.repository;
+package es.repository;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sos.model.Wine;
-import sos.utils.DatabaseUtil;
+import es.model.Wine;
+import es.utils.DatabaseUtil;
 
 /**
  * The WineRepository class is responsible for interacting with the database to perform CRUD operations on Wine objects.

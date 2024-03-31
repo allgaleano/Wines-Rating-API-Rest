@@ -1,4 +1,4 @@
-package sos.client;
+package es.client;
 
 public class CC {
         // Reset

@@ -1,4 +1,4 @@
-package sos.model;
+package es.model;
 
 public class User {
     private Integer userId;

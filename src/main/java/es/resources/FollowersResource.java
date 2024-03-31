@@ -1,4 +1,4 @@
-package sos.resources;
+package es.resources;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -18,11 +18,11 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import sos.model.User;
-import sos.model.Wine;
-import sos.repository.FollowersRepository;
-import sos.repository.UserRepository;
-import sos.repository.UserWineRepository;
+import es.model.User;
+import es.model.Wine;
+import es.repository.FollowersRepository;
+import es.repository.UserRepository;
+import es.repository.UserWineRepository;
 
 @Path("/users")
 public class FollowersResource {
