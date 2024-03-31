@@ -11,7 +11,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu
 - Maven
 - Tomcat
 
-## 1. Clonación del Repositorio (Alternativa descargar el [.war](https://github.com/allgaleano/Wines-Rating-API-Rest/exec/WinesRatingApp.war) manualmente)
+## 1. Clonación del Repositorio (Alternativa descargar el [.war](https://github.com/allgaleano/Wines-Rating-API-Rest/raw/main/exec/WinesRatingApp.war) manualmente)
 
 Primero, necesitas clonar el repositorio de la aplicación WinesRatingApp a tu máquina local. Abre una terminal y ejecuta el siguiente comando: `git clone git@github.com:allgaleano/Wines-Rating-API-Rest.git`
 
@@ -38,7 +38,7 @@ Para desplegar la aplicación en un servidor Tomcat, sigue estos pasos:
 
 1. Asegúrate de que tu servidor Tomcat esté corriendo.
 2. En la raíz del proyecto, ejecuta el siguiente comando Maven para construir la aplicación: `mvn clean package`
-3. Una vez completado el proceso, toma el archivo `.war` generado en `target/WinesRatingApp.war` y colócalo en el directorio `webapps` de tu servidor Tomcat. Alternativamente puedes descargar el archivo de este repositorio [WinesRatingApp.war](https://github.com/allgaleano/Wines-Rating-API-Rest/exec/WinesRatingApp.war)
+3. Una vez completado el proceso, toma el archivo `.war` generado en `target/WinesRatingApp.war` y colócalo en el directorio `webapps` de tu servidor Tomcat. Alternativamente puedes descargar el archivo de este repositorio [WinesRatingApp.war](https://github.com/allgaleano/Wines-Rating-API-Rest/raw/main/exec/WinesRatingApp.war)
 
 Ahora, la aplicación WinesRatingApp debería estar corriendo en tu servidor Tomcat y lista para ser accedida desde un cliente.
 Asegúrate de que el servidor tomcat esté corriendo en el puerto 8080 de localhost
